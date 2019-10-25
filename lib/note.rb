@@ -1,19 +1,20 @@
 class Note
-  def initialize(title, body)
+  def initialize(title, body, formatter = NoteFormatter.new)
     @title = title
     @body = body
-    @formatter = NoteFormatter.new
+    @formatter = formatter
   end
 
   def display
     @formatter.format(self)
   end
 
+  def random
+  end
+
   attr_reader :title, :body
 end
 
 class NoteFormatter
-  def format(note)
-    "Title: #{note.title}\n#{note.body}"
-  end
+  #no method even defined in NoteFormatter
 end
