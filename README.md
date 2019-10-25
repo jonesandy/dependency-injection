@@ -4,9 +4,9 @@ Repository based on the Makers dependency injection practical. For the purposes 
 
 ## Exercises
 
-### Excercise 1
+### Exercise 1
 
-This was the excerise given:
+This was the exercise given:
 
 Amend the following classes to be testable in isolation, then write the tests for them.
 
@@ -32,3 +32,7 @@ class NoteFormatter
 end
 ```
 You will know you've succeeded when you can delete the format method on NoteFormatter and your Note tests still pass.
+
+My code solution found [here](note.rb).
+
+### Exercise 2
