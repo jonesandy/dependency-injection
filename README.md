@@ -33,6 +33,6 @@ end
 ```
 You will know you've succeeded when you can delete the format method on NoteFormatter and your Note tests still pass.
 
-My code solution found [here](note.rb).
+My code solution found [here](lib/note.rb).
 
 ### Exercise 2
